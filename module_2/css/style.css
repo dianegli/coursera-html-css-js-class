@@ -5,18 +5,18 @@
   box-sizing: border-box;
   font-family: Roboto;
   overflow: hidden;
-
 }
 
 #title {
   text-align: center;
-  font-weight: 400;
-
+  font-size: 1.75em;
+  font-weight: bold;
 }
 
 p {
   background-color: #EBEBEB;
   color: black;
+  font-size: 15px;
 }
 
 .container {
@@ -30,6 +30,9 @@ p {
   padding: 35px 15px 35px 15px;
   border: 2px solid black;
   margin: auto;
+  font-size: 1em;
+  font-weight: 400;
+
 }
 
 .label {
@@ -41,8 +44,10 @@ p {
   height: 30px;
   width: 150px;
   text-align: center;
-  padding: 5px;
+  padding: 2px;
   font-weight: bold;
+  font-size: 1.25em;
+
 }
 
 /********** Large devices only **********/
